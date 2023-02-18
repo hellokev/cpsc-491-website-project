@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Bicyclette Regular';
+    src: url(Bicyclette-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bicyclette Regular';
+    color: white;
+}
+
+body {
+    background: linear-gradient(90deg, #ba7b6e, #613e67, #1f1062, #1f1062 ,#613e67 ,#ba7b6e);
+    animation: grad-animation 45s infinite ease-in-out;
+    background-size: 400% 400%;
+}
+
+@keyframes grad-animation {
+    0% {
+        background-position: 0%;
+    }
+    50% {
+        background-position: 100%;
+    }
+    100% {
+        background-position: 0%;
+    } 
+}
+
+.main-container {
+    display: grid;
+    grid-template-rows: 1fr 12fr;
+}
+
+.top-container {
+    display: grid;
+    grid-template-columns: 8fr 8fr;
+    justify-items: center;
+    margin-top: 1em;
+    font-size: 2em;
+}
+
+#project {
+
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-logo {
+    width: 60px;
+    transition: transform .2s;
+    border: 0;
+}
+
+/* .social-logo:hover {
+
+} */
+#twitter:hover {
+    transform: scale(1.2);
+    border-radius: 50%;
+    box-shadow:
+    0 0 10px #00acee,
+    0px 0 10px #00acee,  
+    0px 0 10px #00acee;     
+}
+
+#facebook:hover {
+    transform: scale(1.2);
+    border-radius: 50%;
+    box-shadow:
+    0 0 10px #3b5998,
+    0px 0 10px #3b5998,  
+    0px 0 10px #3b5998;
+}
+
+#reddit:hover {
+    transform: scale(1.2);
+    border-radius: 50%;
+    box-shadow:
+    0 0 10px #ff4500,
+    0px 0 10px #ff4500,  
+    0px 0 10px #ff4500;         
+}
+
+#telegram:hover {
+    transform: scale(1.2);
+    border-radius: 50%;
+    box-shadow:
+    0 0 10px #0088CC,
+    0px 0 10px #0088CC,  
+    0px 0 10px #0088CC;
+}
+
+#discord:hover {
+    transform: scale(1.2);
+    border-radius: 50%;
+    box-shadow:
+    0 0 10px #7289da,
+    0px 0 10px #7289da,  
+    0px 0 10px #7289da;
+}
+
+
+
+    /* background: linear-gradient(to right, #0f2027, #203a43, #2c5364); */
+    /* background: linear-gradient(-45deg, #23074d, #cc5333); */
+
+    /* animation: anim 3s ease-in-out 0s infinite alternate; */
+    /*background: 140021 \ wave 1: 9900FF \ wave 2: 560090*/
