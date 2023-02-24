@@ -12,7 +12,7 @@ function App() {
       <div className="main-container">
         <div className="top-container">
           <p id="title">Asynchronous Applications</p>
-          <p id="project">Social Media scrapper</p>
+          <p id="project">Social Media Scrapper</p>
         </div>
       </div>
       <div className="social-media">
