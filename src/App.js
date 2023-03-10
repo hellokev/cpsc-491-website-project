@@ -32,16 +32,21 @@ function App() {
         <form className='form-container'>
           <div className="task-container">
             <label htmlFor="task">Task:</label><br/>
-            <input type="text" id="task" name="task" /><br/>
+            <input type="text" id="task" name="task" required/><br/>
           </div>
           <div className="freq-container">
             <label htmlFor="frequency">Frequency:</label><br/>
-            <select name="frequency" id="frequency">
+            <select name="frequency" id="frequency" required>
               <option value="thiry-second" className='time'>30 Sec</option>
               <option value="two-minutes" className='time'>2 Min</option>
               <option value="five-minutes" className='time' selected>5 Min</option>
               <option value="ten-minutes" className='time'>10 Min</option>
             </select>
+          </div>
+          <div className="botform-container">
+            <input type="checkbox" id="enable-btn" name="enable" value="enable"/>
+            <label for="enable">Enable</label><br></br>
+            <input type="submit" value="Save Task" className='save-task'></input>
           </div>
         </form> 
       </TwitPopUp>
