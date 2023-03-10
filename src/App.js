@@ -36,7 +36,12 @@ function App() {
           </div>
           <div className="freq-container">
             <label htmlFor="frequency">Frequency:</label><br/>
-            <input type="text" id="frequency" name="frequency"/>
+            <select name="frequency" id="frequency">
+              <option value="thiry-second" className='time'>30 Sec</option>
+              <option value="two-minutes" className='time'>2 Min</option>
+              <option value="five-minutes" className='time' selected>5 Min</option>
+              <option value="ten-minutes" className='time'>10 Min</option>
+            </select>
           </div>
         </form> 
       </TwitPopUp>

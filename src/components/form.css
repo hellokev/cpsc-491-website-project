@@ -30,7 +30,10 @@
     align-items: center;
 }
 #task {
-    color:black;
+    color: black;
+}
+.time {
+    color: black;
 }
 #frequency {
     color:black;
