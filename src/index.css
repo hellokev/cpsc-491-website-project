@@ -20,7 +20,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(90deg, #ba7b6e, #613e67, #1f1062, #1f1062 ,#613e67 ,#ba7b6e);
   animation: grad-animation 45s infinite ease-in-out;
-  background-size: 400% 400%;
+  background-size: 100% 100%;
 }
 
 code {

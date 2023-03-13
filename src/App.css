@@ -1,21 +1,26 @@
 .main-container {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  margin-bottom: 18rem;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
 }
 
 .top-container {
   display: grid;
   grid-template-columns: 8fr 8fr;
   justify-items: center;
-  margin-top: 1em;
+  margin-top: 0px;
   font-size: 2em;
 }
 
 .social-media {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
+  position: absolute;
+  top: 250px;
+  left: 550px;
+}
+
+.social-logo + .social-logo {
+  margin-left: 20px;
 }
 
 .social-logo {
