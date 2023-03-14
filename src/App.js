@@ -32,11 +32,11 @@ function App() {
         <form className='form-container'>
           <div className="task-container">
             <label htmlFor="task">Task:</label><br/>
-            <input type="text" id="task" name="task" required/><br/>
+            <input type="text" id="task" name="task"/><br/>
           </div>
           <div className="freq-container">
             <label htmlFor="frequency">Frequency:</label><br/>
-            <select name="frequency" id="frequency" required>
+            <select name="frequency" id="frequency" >
               <option value="thiry-second" className='time'>30 Sec</option>
               <option value="two-minutes" className='time'>2 Min</option>
               <option value="five-minutes" className='time' selected>5 Min</option>
@@ -47,6 +47,9 @@ function App() {
             <input type="checkbox" id="enable-btn" name="enable" value="enable"/>
             <label for="enable">Enable</label><br></br>
             <input type="submit" value="Save Task" className='save-task'></input>
+            </div>
+          <div className="taskbuild-container">
+          <a href="https://developer.twitter.com/en/docs/twitter-api/tweets/filtered-stream/integrate/build-a-rule"><div class="info-button">i</div></a>
           </div>
         </form> 
       </TwitPopUp>
