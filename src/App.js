@@ -31,6 +31,9 @@ function App() {
       <TwitPopUp trigger={buttonPopup} setTrigger={setButtonPopup}>
         <form className='form-container'>
           <div className="task-container">
+          <div className="taskbuild-container">
+          <a href="https://developer.twitter.com/en/docs/twitter-api/tweets/filtered-stream/integrate/build-a-rule"><div class="info-button">i </div></a>
+          </div>
             <label htmlFor="task">Task:</label><br/>
             <input type="text" id="task" name="task"/><br/>
           </div>
@@ -48,9 +51,6 @@ function App() {
             <label for="enable">Enable</label><br></br>
             <input type="submit" value="Save Task" className='save-task'></input>
             </div>
-          <div className="taskbuild-container">
-          <a href="https://developer.twitter.com/en/docs/twitter-api/tweets/filtered-stream/integrate/build-a-rule"><div class="info-button">i </div></a>
-          </div>
         </form> 
       </TwitPopUp>
     </div>
