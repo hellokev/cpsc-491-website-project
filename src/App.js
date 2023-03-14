@@ -49,7 +49,7 @@ function App() {
             <input type="submit" value="Save Task" className='save-task'></input>
             </div>
           <div className="taskbuild-container">
-          <a href="https://developer.twitter.com/en/docs/twitter-api/tweets/filtered-stream/integrate/build-a-rule"><div class="info-button">i</div></a>
+          <a href="https://developer.twitter.com/en/docs/twitter-api/tweets/filtered-stream/integrate/build-a-rule"><div class="my-button">i </div></a>
           </div>
         </form> 
       </TwitPopUp>
